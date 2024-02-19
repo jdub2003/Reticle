@@ -13,7 +13,7 @@ public class CloudEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-0.009f, 0f, 0f);
+        transform.Translate(-1f* Time.deltaTime, 0f, 0f);
         if(transform.position.x < -13.2)
         {
             float y = transform.position.y;

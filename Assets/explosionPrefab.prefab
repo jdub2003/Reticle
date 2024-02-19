@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5325065299185940364}
   - component: {fileID: 3733545002540031535}
   - component: {fileID: -2006327639827688715}
+  - component: {fileID: -4773732424534277493}
   m_Layer: 0
   m_Name: explosionPrefab
   m_TagString: Untagged
@@ -71,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1497532389
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 314798028, guid: 1f6af06cad2b93746874fb06727d323b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -95,9 +96,9 @@ Animator:
   m_GameObject: {fileID: 8969648572464692343}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 10cfcd98060e34c498998f120edee4c5, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -106,3 +107,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-4773732424534277493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8969648572464692343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f548bab0f78ecf4aa4d47fa60564f69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
