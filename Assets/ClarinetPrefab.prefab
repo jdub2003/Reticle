@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5183937064909517101}
   - component: {fileID: 39602205847846546}
   - component: {fileID: 5399816769538221837}
-  - component: {fileID: 6114621934373496645}
-  - component: {fileID: 8939397329709293435}
+  - component: {fileID: -3373724911635957276}
+  - component: {fileID: 6073323286713960955}
   m_Layer: 0
   m_Name: ClarinetPrefab
   m_TagString: Untagged
@@ -103,7 +103,35 @@ MonoBehaviour:
   clarinet: {fileID: 8300000, guid: 88b63c8cdb0257d4bb5792361b6a6b32, type: 3}
   pat: {fileID: 8300000, guid: 92e7541ac18fccc43a432ea4c61f903c, type: 3}
   speed: 4
---- !u!60 &6114621934373496645
+  audioSource: {fileID: 0}
+--- !u!50 &-3373724911635957276
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4654295659123329501}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!60 &6073323286713960955
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,30 +239,3 @@ PolygonCollider2D:
       - {x: -0.59499997, y: 0.515}
       - {x: -0.59499997, y: 0.525}
   m_UseDelaunayMesh: 0
---- !u!50 &8939397329709293435
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4654295659123329501}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0

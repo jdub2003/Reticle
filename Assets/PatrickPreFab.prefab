@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7487831694775042712}
   - component: {fileID: 3523081512846370219}
-  - component: {fileID: -350093603715642551}
   - component: {fileID: 4308822593279053338}
+  - component: {fileID: 7884837827578308158}
   - component: {fileID: -7156973576938028118}
   m_Layer: 0
   m_Name: PatrickPreFab
@@ -87,18 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-350093603715642551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132076407300332404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d30b0b9d75ab0f74a9bc3dfdce326a58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &4308822593279053338
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,6 +132,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5707002, y: 2.1210701}
   m_EdgeRadius: 0
+--- !u!114 &7884837827578308158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132076407300332404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30b0b9d75ab0f74a9bc3dfdce326a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &-7156973576938028118
 AudioSource:
   m_ObjectHideFlags: 0
@@ -151,7 +151,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132076407300332404}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 92e7541ac18fccc43a432ea4c61f903c, type: 3}
