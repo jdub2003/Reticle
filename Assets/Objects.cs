@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpongeBob : MonoBehaviour
 {
     
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,4 +26,5 @@ public class SpongeBob : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 }

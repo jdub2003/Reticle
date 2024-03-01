@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3324346173909965100}
   - component: {fileID: 8677469871593116275}
-  - component: {fileID: 121073503745874198}
   - component: {fileID: 4546276275977316069}
   - component: {fileID: -5013466656283181023}
+  - component: {fileID: 1009017994616910435}
   m_Layer: 0
   m_Name: SquidPreFab
   m_TagString: Handsome
@@ -87,18 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &121073503745874198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2411671122694658787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d30b0b9d75ab0f74a9bc3dfdce326a58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &4546276275977316069
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -230,3 +218,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1009017994616910435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2411671122694658787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30b0b9d75ab0f74a9bc3dfdce326a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
