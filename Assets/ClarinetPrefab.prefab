@@ -99,6 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c822514e89e7cbc4ea3722296bda6c81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sb: {fileID: 8300000, guid: 4bcda7af72efca04787b4c35b28d4c80, type: 3}
+  clarinet: {fileID: 8300000, guid: 88b63c8cdb0257d4bb5792361b6a6b32, type: 3}
+  pat: {fileID: 8300000, guid: 92e7541ac18fccc43a432ea4c61f903c, type: 3}
   speed: 4
 --- !u!60 &6114621934373496645
 PolygonCollider2D:
