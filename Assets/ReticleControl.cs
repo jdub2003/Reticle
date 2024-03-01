@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class LeftRightControl : MonoBehaviour
 {
-    [SerializeField] GameObject Explosion;
+    [SerializeField] GameObject Clarinet;
+    [SerializeField] float minY = -4f;
+    [SerializeField] float maxY = 4f;
+    [SerializeField] float speed = 1f;
+    //[SerializeField] GameObject Explosion;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +18,20 @@ public class LeftRightControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float y = Input.GetAxis("Vertical");
+
+        transform.Translate(0f, speed * y * Time.deltaTime, 0f);
+
+        if (transform.position.y < minY)
+        {
+            transform.position = new Vector3(transform.position.x, minY, 0f);
+        }
+        if (transform.position.y > maxY)
+        {
+            transform.position = new Vector3(transform.position.x, maxY, 0f);
+        }
+
+        /*
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(0f, 2f* Time.deltaTime, 0f);
@@ -51,6 +69,13 @@ public class LeftRightControl : MonoBehaviour
                 var y = transform.position.y;
                 transform.position = new Vector3(-7.9f, y, 0f);
             }
+        }*/
+        //Throw a clarinet
+        if (Input.GetKeyDown(KeyCode.Space)||Input.GetButtonDown("Fire1"))
+        {
+            float newY = transform.position.y + 0.65f;
+            float newX = transform.position.x + 0.65f;
+            Instantiate(Clarinet, new Vector3(newX, newY, transform.position.z), transform.rotation);
         }
         /*if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -58,6 +83,6 @@ public class LeftRightControl : MonoBehaviour
             source.Play();
             Instantiate(Explosion,transform.position,transform.rotation);
         }*/
-        
+
     }
 }

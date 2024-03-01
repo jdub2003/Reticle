@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a13095f86706fae42b0bff9b47ae3275
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SpongebobPrefab: {fileID: 1320737101179653782, guid: 913896b93dcb845008a1f451bad44406, type: 3}
+  - PatrickPrefab: {fileID: 1132076407300332404, guid: 22b87d2d387c741b783504cc9270c5ac, type: 3}
+  - HandSquidPrefab: {fileID: 2411671122694658787, guid: a1f042ce944ac4d8dbe1428dddf7717b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
