@@ -76,6 +76,8 @@ public class LeftRightControl : MonoBehaviour
             float newY = transform.position.y + 0.65f;
             float newX = transform.position.x + 0.65f;
             Instantiate(Clarinet, new Vector3(newX, newY, transform.position.z), transform.rotation);
+            //AudioSource source = GetComponent<AudioSource>();
+            //source.Play();
         }
         /*if (Input.GetKeyDown(KeyCode.Space))
         {
